@@ -1,0 +1,23 @@
+name: ci-production
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  deploy-prd:
+    name: "Deploy dynamic text resources to prd"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Copy the content of /payload to the target bucket
+        uses: jakejarvis/s3-sync-action@master
+        env:
+          AWS_S3_BUCKET: 'covid19-prd-static'
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_PRD_PUSHECR }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_PRD_PUSHECR }}
+          AWS_REGION: 'eu-central-1'
+          SOURCE_DIR: 'payload'
+          DEST_DIR: 'dynamictext'
