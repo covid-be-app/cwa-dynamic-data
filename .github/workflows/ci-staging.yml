@@ -1,0 +1,73 @@
+name: ci-develop
+on:
+  push:
+    branches:
+      - staging
+
+jobs:
+  deploy-dev:
+    name: "Deploy dynamic text resources to dev"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_DEV_PUSHECR }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_DEV_PUSHECR }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+      - name: Copy the content of /payload to the target bucket
+        uses: jakejarvis/s3-sync-action@master
+        env:
+          AWS_S3_BUCKET: 'covid19-dev-static'
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_DEV_PUSHECR }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_DEV_PUSHECR }}
+          AWS_REGION: 'eu-central-1'
+          SOURCE_DIR: 'payload'
+
+  deploy-tst:
+    name: "Deploy dynamic text resources to tst"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_TST_PUSHECR }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_TST_PUSHECR }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+      - name: Copy the content of /payload to the target bucket
+        uses: jakejarvis/s3-sync-action@master
+        env:
+          AWS_S3_BUCKET: 'covid19-tst-static'
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_TST_PUSHECR }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_TST_PUSHECR }}
+          AWS_REGION: 'eu-central-1'
+          SOURCE_DIR: 'payload'
+
+  deploy-stg:
+    name: "Deploy dynamic text resources to stg"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_STG_PUSHECR }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_STG_PUSHECR }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+      - name: Copy the content of /payload to the target bucket
+        uses: jakejarvis/s3-sync-action@master
+        env:
+          AWS_S3_BUCKET: 'covid19-stg-static'
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_STG_PUSHECR }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_STG_PUSHECR }}
+          AWS_REGION: 'eu-central-1'
+          SOURCE_DIR: 'payload'
+
