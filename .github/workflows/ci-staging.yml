@@ -12,12 +12,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_DEV_PUSHECR }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_DEV_PUSHECR }}
-          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
       - name: Copy the content of /payload to the target bucket
         uses: jakejarvis/s3-sync-action@master
         env:
@@ -34,12 +28,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_TST_PUSHECR }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_TST_PUSHECR }}
-          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
       - name: Copy the content of /payload to the target bucket
         uses: jakejarvis/s3-sync-action@master
         env:
@@ -56,12 +44,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_STG_PUSHECR }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_STG_PUSHECR }}
-          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
       - name: Copy the content of /payload to the target bucket
         uses: jakejarvis/s3-sync-action@master
         env:
