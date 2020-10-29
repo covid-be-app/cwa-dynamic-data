@@ -15,11 +15,12 @@ jobs:
       - name: Copy the content of /payload to the target bucket
         uses: jakejarvis/s3-sync-action@master
         env:
-          AWS_S3_BUCKET: 'covid19-dev-static'
+          AWS_S3_BUCKET: 'covid19-dev-statistics'
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_DEV_PUSHECR }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_DEV_PUSHECR }}
           AWS_REGION: 'eu-central-1'
           SOURCE_DIR: 'payload'
+          DEST_DIR: 'dynamictext'
 
   deploy-tst:
     name: "Deploy dynamic text resources to tst"
@@ -31,11 +32,12 @@ jobs:
       - name: Copy the content of /payload to the target bucket
         uses: jakejarvis/s3-sync-action@master
         env:
-          AWS_S3_BUCKET: 'covid19-tst-static'
+          AWS_S3_BUCKET: 'covid19-tst-statistics'
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_TST_PUSHECR }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_TST_PUSHECR }}
           AWS_REGION: 'eu-central-1'
           SOURCE_DIR: 'payload'
+          DEST_DIR: 'dynamictext'
 
   deploy-stg:
     name: "Deploy dynamic text resources to stg"
@@ -47,9 +49,10 @@ jobs:
       - name: Copy the content of /payload to the target bucket
         uses: jakejarvis/s3-sync-action@master
         env:
-          AWS_S3_BUCKET: 'covid19-stg-static'
+          AWS_S3_BUCKET: 'covid19-stg-statistics'
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_STG_PUSHECR }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_STG_PUSHECR }}
           AWS_REGION: 'eu-central-1'
           SOURCE_DIR: 'payload'
+          DEST_DIR: 'dynamictext'
 
