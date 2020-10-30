@@ -16,11 +16,22 @@ jobs:
         uses: jakejarvis/s3-sync-action@master
         env:
           AWS_S3_BUCKET: 'covid19-dev-static'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_DEV_PUSHECR }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_DEV_PUSHECR }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_DEV }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_DEV }}
           AWS_REGION: 'eu-central-1'
           SOURCE_DIR: 'payload'
           DEST_DIR: 'dynamictext'
+      - name: Configure AWS Credentials required for the CloudFront invalidation
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_DEV }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_DEV }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+      - name: Invalidate the CloudFront distribution
+        run: |
+          aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION} --paths '/*'
+        env:
+          DISTRIBUTION: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID_DEV }}
 
   deploy-tst:
     name: "Deploy dynamic text resources to tst"
@@ -33,11 +44,22 @@ jobs:
         uses: jakejarvis/s3-sync-action@master
         env:
           AWS_S3_BUCKET: 'covid19-tst-static'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_TST_PUSHECR }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_TST_PUSHECR }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_TST }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_TST }}
           AWS_REGION: 'eu-central-1'
           SOURCE_DIR: 'payload'
           DEST_DIR: 'dynamictext'
+      - name: Configure AWS Credentials required for the CloudFront invalidation
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_TST }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_TST }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+      - name: Invalidate the CloudFront distribution
+        run: |
+          aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION} --paths '/*'
+        env:
+          DISTRIBUTION: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID_TST }}
 
   deploy-stg:
     name: "Deploy dynamic text resources to stg"
@@ -50,9 +72,20 @@ jobs:
         uses: jakejarvis/s3-sync-action@master
         env:
           AWS_S3_BUCKET: 'covid19-stg-static'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_STG_PUSHECR }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_STG_PUSHECR }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_STG }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_STG }}
           AWS_REGION: 'eu-central-1'
           SOURCE_DIR: 'payload'
           DEST_DIR: 'dynamictext'
+      - name: Configure AWS Credentials required for the CloudFront invalidation
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_STG }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_STG }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+      - name: Invalidate the CloudFront distribution
+        run: |
+          aws cloudfront create-invalidation --distribution-id ${DISTRIBUTION} --paths '/*'
+        env:
+          DISTRIBUTION: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID_STG }}
 
