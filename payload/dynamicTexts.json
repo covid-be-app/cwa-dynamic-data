@@ -3,9 +3,8 @@
     "standard": {
       "preventiveMeasures": [
         {
-          "icon": "dt_check",
-          "text": "standard.preventiveMeasures.1.text",
-          "paragraphs": null
+          "icon": "dt_washHands",
+          "text": "standard.preventiveMeasures.1.text"
         },
         {
           "icon": "dt_distance",
