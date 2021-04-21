@@ -57,7 +57,8 @@
                     "icon": "dt_exclamation",
                     "text": "highRisk.preventiveMeasures.4.text",
                     "paragraphs": [
-                        "highRisk.preventiveMeasures.4.paragraphs.1"
+                        "highRisk.preventiveMeasures.4.paragraphs.1",
+                        "highRisk.preventiveMeasures.4.paragraphs.2"                        
                     ]
                 }
             ]
@@ -222,6 +223,7 @@
             "highRisk.preventiveMeasures.3.paragraphs.2": "Medical out-of-hours service at 1733",
             "highRisk.preventiveMeasures.4.text": "Do you have no symptoms?",
             "highRisk.preventiveMeasures.4.paragraphs.1": "Observe a 10-day quarantine and take two tests (PCR)",
+            "highRisk.preventiveMeasures.4.paragraphs.2": "Please contact the contact tracing center on 02 214 19 19",
             "positiveTestResultCard.explanation.1.text": "The call center will contact you by telephone.",
             "positiveTestResultCard.explanation.2.text": "You're contagious. Immediately go into isolation for at least 10 days.",
             "positiveTestResultCard.explanation.3.text": "Share your anonymous ID’s so that others can be warned.",
@@ -275,6 +277,7 @@
             "highRisk.preventiveMeasures.3.paragraphs.2": "De medische wachtdienst op het nummer 1733",
             "highRisk.preventiveMeasures.4.text": "Heb je geen symptomen?",
             "highRisk.preventiveMeasures.4.paragraphs.1": "Respecteer 10 dagen quarantaine en laat je tweemaal testen (PCR). ",
+            "highRisk.preventiveMeasures.4.paragraphs.2": "Contacteer het contact tracing center op 02 214 19 19",
             "positiveTestResultCard.explanation.1.text": "Het call center neemt telefonisch contact met je op. ",
             "positiveTestResultCard.explanation.2.text": "Je bent besmettelijk. Ga onmiddellijk in isolatie gedurende minstens 10 dagen.",
             "positiveTestResultCard.explanation.3.text": "Deel je anonieme ID’s zodat anderen gewaarschuwd kunnen worden. ",
@@ -328,6 +331,7 @@
             "highRisk.preventiveMeasures.3.paragraphs.2": "Le service de garde médical sur le numéro 1733",
             "highRisk.preventiveMeasures.4.text": "Vous n'avez pas de symptômes ?",
             "highRisk.preventiveMeasures.4.paragraphs.1": "Respectez une quarantaine de 10 jours et prenez deux tests (PCR)",
+            "highRisk.preventiveMeasures.4.paragraphs.2": "Appelez le centre de contact au 02 214 19 19.",
             "positiveTestResultCard.explanation.1.text": "Le centre d'appel vous contactera par téléphone.",
             "positiveTestResultCard.explanation.2.text": "Vous êtes contagieux. Allez immédiatement en isolement pendant au moins 10 jours.",
             "positiveTestResultCard.explanation.3.text": "Partagez vos clés anonymes afin que les autres puissent être avertis.",
@@ -381,6 +385,7 @@
             "highRisk.preventiveMeasures.3.paragraphs.2": "Den medizinischen Bereitschaftsdienst über die Nummer 1733",
             "highRisk.preventiveMeasures.4.text": "Haben Sie keine Symptome?",
             "highRisk.preventiveMeasures.4.paragraphs.1": "Bitte respektieren Sie die Quarantäne für 10 Tage und lassen Sie sich zweimal testen (PCR)",
+            "highRisk.preventiveMeasures.4.paragraphs.2": "Rufen Sie das Kontaktzentrum unter 02 214 19 19 an.",
             "positiveTestResultCard.explanation.1.text": "Das Callcenter wird Sie telefonisch kontaktieren.",
             "positiveTestResultCard.explanation.2.text": "Du bist ansteckend. Gehen Sie sofort für mindestens 10 Tage in Isolation.",
             "positiveTestResultCard.explanation.3.text": "Teilen Sie Ihre anonymen IDs mit, damit andere benachrichtigt werden können.",
