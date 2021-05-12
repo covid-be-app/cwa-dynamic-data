@@ -3,29 +3,28 @@
         "news": {
             "explanation": [
 				{
-					"title": "news.explanation.1.title",
-					"text": "news.explanation.1.text"
+					"title": "",
+					"text": ""
 					}
             ]
-        },
+        }
+	},
     "texts": {
         "en": {
-            "news.explanation.1.title": "Your general practitioner",
-            "news.explanation.1.text": "Medical out-of-hours service at 1733"
+            "title": "News Title",
+            "text": "News Text"
         },
         "nl": {
-			"news.explanation.1.title": "Your general practitioner",
-			"news.explanation.1.text": "Medical out-of-hours service at 1733"
-
+			"title": "News Title",
+			"text": "News Text"
         },
         "fr": {
-			"news.explanation.1.title": "Your general practitioner",
-			"news.explanation.1.text": "Medical out-of-hours service at 1733"
-
+			"title": "News Title",
+			"text": "News Text"
         },
         "de": {
-			"news.explanation.1.title": "Your general practitioner",
-			"news.explanation.1.text": "Medical out-of-hours service at 1733"
+			"title": "News Title",
+			"text": "News Text"
         }
     }
 }
