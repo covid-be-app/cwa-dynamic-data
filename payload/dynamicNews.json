@@ -3,8 +3,8 @@
         "news": {
             "explanation": [
 				{
-					"title": "",
-					"text": ""
+					"title": "title",
+					"text": "text"
 					}
             ]
         }
