@@ -12,19 +12,19 @@
     "texts": {
         "en": {
             "title": "Latest News",
-            "text": "The Coronalert app has been updated. You can add your test anonymously."
+            "text": "Want to take advantage of clearance sales? New version of Coronalert on = fighting the new spread together"
         },
         "nl": {
 			"title": "Laatste Nieuws",
-			"text": "De Coronalert-app is bijgewerkt. U kunt uw test anoniem toevoegen."
+			"text": "Je slag slaan in de solden? Zet je vernieuwde Coronalert aan = samen verspreiding tegengaan"
         },
         "fr": {
-			"title": "Dernièrre Nouvelle",
-			"text": "Coronalert à été mise à jour. Vous pouvez rajouter votre test de manière anonyme."
+			"title": "Dernière Nouvelle",
+			"text": "Vous voulez profiter des soldes ? Nouvelle version de Coronalert activée = nouvelle vague évitée"
         },
         "de": {
 			"title": "Letzte Neuigkeiten",
-			"text": "Die Coronalert-App wurde aktualisiert. Sie können Ihren Test anonym hinzufügen."
+			"text": "Schnäppchen schlagen im Schlussverkauf? Erneuerte Coronalert einschalten = gemeinsam das Virus aufhalten"
         }
     }
 }
