@@ -12,19 +12,19 @@
     "texts": {
         "en": {
             "title": "Latest News",
-            "text": "Want to take advantage of clearance sales? New version of Coronalert on = fighting the new spread together"
+            "text": "Going to a concert soon? Turn off your sound and turn on your new Coronalert"
         },
         "nl": {
 			"title": "Laatste Nieuws",
-			"text": "Je slag slaan in de solden? Zet je vernieuwde Coronalert aan = samen verspreiding tegengaan"
+			"text": "Binnenkort naar een optreden? Zet je geluid uit en je vernieuwde Coronalert aan."
         },
         "fr": {
 			"title": "Dernière Nouvelle",
-			"text": "Vous voulez profiter des soldes ? Nouvelle version de Coronalert activée = nouvelle vague évitée"
+			"text": "Vous allez bientôt à un concert ? On coupe le son, pas l'appli !"
         },
         "de": {
 			"title": "Letzte Neuigkeiten",
-			"text": "Schnäppchen schlagen im Schlussverkauf? Erneuerte Coronalert einschalten = gemeinsam das Virus aufhalten"
+			"text": "Demnächst zum Konzert? Ton abschalten und erneuerte Coronalert einschalten."
         }
     }
 }
