@@ -12,19 +12,19 @@
     "texts": {
         "en": {
             "title": "Latest News",
-            "text": "Going to a concert soon? Turn off your sound and turn on your new Coronalert"
+            "text": "Tested positive? Notify all your contacts quickly and anonymously. Even those you don't know."
         },
         "nl": {
 			"title": "Laatste Nieuws",
-			"text": "Binnenkort naar een optreden? Zet je geluid uit en je vernieuwde Coronalert aan."
+			"text": "Positief getest? Verwittig snel en anoniem al je contacten. Ook wie je niet kent."
         },
         "fr": {
 			"title": "Dernière Nouvelle",
-			"text": "Vous allez bientôt à un concert ? On coupe le son, pas l'appli !"
+			"text": "Test positif ? Prévenez, via l'appli, les personnes que vous avez côtoyées. C'est anonyme. "
         },
         "de": {
 			"title": "Letzte Neuigkeiten",
-			"text": "Demnächst zum Konzert? Ton abschalten und erneuerte Coronalert einschalten."
+			"text": "Positiv getestet? Warnen Sie Ihre Kontakte und alle, die Sie nicht kennen, schnell und anonym."
         }
     }
 }
