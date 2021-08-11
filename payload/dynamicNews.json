@@ -12,7 +12,7 @@
     "texts": {
         "en": {
             "title": "Latest News",
-            "text": "Tested positive? Notify all your contacts quickly and anonymously. Even those you don't know."
+            "text": "Alles geven in de fitness? Vergeet je vernieuwde Coronalert niet aan te zetten!"
         },
         "nl": {
 			"title": "Laatste Nieuws",
@@ -20,11 +20,11 @@
         },
         "fr": {
 			"title": "Dernière Nouvelle",
-			"text": "Test positif ? Prévenez, via l'appli, les personnes que vous avez côtoyées. C'est anonyme. "
+			"text": "Vous donner à fond au fitness ? N'oubliez pas d'activer la dernière version de Coronalert !"
         },
         "de": {
 			"title": "Letzte Neuigkeiten",
-			"text": "Positiv getestet? Warnen Sie Ihre Kontakte und alle, die Sie nicht kennen, schnell und anonym."
+			"text": "Maximaler Einsatz beim Fitness? Vergessen Sie nicht, Ihre erneuerte Coronalert einzuschalten!"
         }
     }
 }
