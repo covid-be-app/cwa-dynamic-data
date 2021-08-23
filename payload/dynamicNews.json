@@ -12,19 +12,19 @@
     "texts": {
         "en": {
             "title": "Latest News",
-            "text": "Alles geven in de fitness? Vergeet je vernieuwde Coronalert niet aan te zetten!"
+            "text": "A trip to the zoo or an amusement park? New version of Coronalert on = fighting the new spread together"
         },
         "nl": {
 			"title": "Laatste Nieuws",
-			"text": "Positief getest? Verwittig snel en anoniem al je contacten. Ook wie je niet kent."
+			"text": "Een uitstap naar de zoo of een pretpark? Zet je vernieuwde Coronalert aan = samen nieuwe verspreiding tegengaan."
         },
         "fr": {
 			"title": "Dernière Nouvelle",
-			"text": "Vous donner à fond au fitness ? N'oubliez pas d'activer la dernière version de Coronalert !"
+			"text": "Une excursion au zoo ou dans un parc d'attractions ? Nouvelle version de Coronalert activée = nouvelle vague évitée"
         },
         "de": {
 			"title": "Letzte Neuigkeiten",
-			"text": "Maximaler Einsatz beim Fitness? Vergessen Sie nicht, Ihre erneuerte Coronalert einzuschalten!"
+			"text": "Ein Ausflug in den Zoo oder einen Freizeitpark? Erneuerte Version Coronalert einschalten = gemeinsam das Virus aufhalten"
         }
     }
 }
