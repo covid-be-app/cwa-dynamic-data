@@ -12,19 +12,19 @@
     "texts": {
         "en": {
             "title": "Latest News",
-            "text": "A trip to the zoo or an amusement park? New version of Coronalert on = fighting the new spread together"
+            "text": "Back to school? Turn on your new Coronalert app here too."
         },
         "nl": {
 			"title": "Laatste Nieuws",
-			"text": "Een uitstap naar de zoo of een pretpark? Zet je vernieuwde Coronalert aan = samen nieuwe verspreiding tegengaan."
+			"text": "Terug naar school? Zet ook daar je vernieuwe Coronalert app aan."
         },
         "fr": {
 			"title": "Dernière Nouvelle",
-			"text": "Une excursion au zoo ou dans un parc d'attractions ? Nouvelle version de Coronalert activée = nouvelle vague évitée"
+			"text": "La rentrée des classes ? Activez votre nouvelle version de Coronalert là aussi."
         },
         "de": {
 			"title": "Letzte Neuigkeiten",
-			"text": "Ein Ausflug in den Zoo oder einen Freizeitpark? Erneuerte Version Coronalert einschalten = gemeinsam das Virus aufhalten"
+			"text": "Wieder zur Schule? Auch dort macht es Sinn, die erneuerte Coronalert-App einzuschalten."
         }
     }
 }
