@@ -12,19 +12,19 @@
     "texts": {
         "en": {
             "title": "Latest News",
-            "text": "Rediscovering Europe on a city trip? You can! Stay safe and use the renewed Coronalert app."
+            "text": "Soon going back to the pub with friends? Do it safely with the Coronalert app."
         },
         "nl": {
 			"title": "Laatste Nieuws",
-			"text": "Binnenkort samen met vrienden terug op café? Neem Coronalert dan zeker ook mee!"
+			"text": "Positieve coronatest? Link jouw testresultaat nu ook aan je Coronalert app en breng zo jouw contacten op de hoogte."
         },
         "fr": {
 			"title": "Dernière Nouvelle",
-			"text": "Vous allez bientôt retourner au pub avec des amis? Alors n'oubliez pas d'emmener Coronalert aussi!"
+			"text": "Test Coronalert positif? Associez le résultat de votre test à votre application Coronalert et informez vos contacts. "
         },
         "de": {
 			"title": "Letzte Neuigkeiten",
-			"text": "Möchten Sie Europa auf einer Städtereise neu entdecken? Bleiben Sie sicher und nutzen Sie die erneuerte Coronalert-App."
+			"text": "Gehst du bald wieder mit Freunden in die Kneipe? Dann bringen Sie auch Coronalert mit!"
         }
     }
 }
