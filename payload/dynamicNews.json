@@ -12,19 +12,19 @@
     "texts": {
         "en": {
             "title": "Latest News",
-            "text": "Want to take advantage of clearance sales? New version of Coronalert on = fighting the new spread together"
+            "text": "Going out soon? Do it safely with the Coronalert app."
         },
         "nl": {
 			"title": "Laatste Nieuws",
-			"text": "Je slag slaan in de solden? Zet je vernieuwde Coronalert aan = samen verspreiding tegengaan"
+			"text": "Gebruik de Coronalert app en zet je Bluetooth aan, zo ben je altijd klaar om veilig buiten te gaan."
         },
         "fr": {
 			"title": "Dernière Nouvelle",
-			"text": "Vous voulez profiter des soldes ? Nouvelle version de Coronalert activée = nouvelle vague évitée"
+			"text": "Utilisez l'application Coronalert et activez votre Bluetooth, afin d'être toujours prêt à sortir en toute sécurité."
         },
         "de": {
 			"title": "Letzte Neuigkeiten",
-			"text": "Schnäppchen schlagen im Schlussverkauf? Erneuerte Coronalert einschalten = gemeinsam das Virus aufhalten"
+			"text": "Gehen Sie bald aus? Tun Sie es sicher mit der Coronalert-App."
         }
     }
 }
