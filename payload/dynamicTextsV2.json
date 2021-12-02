@@ -58,8 +58,7 @@
                     "paragraphs": [
                         "highRisk.preventiveMeasures.4.paragraphs.1",
                         "highRisk.preventiveMeasures.4.paragraphs.2",                        
-                        "highRisk.preventiveMeasures.4.paragraphs.3",                        
-                        "highRisk.preventiveMeasures.4.paragraphs.4"
+                        "highRisk.preventiveMeasures.4.paragraphs.3"
                     ]
                 }
             ]
@@ -219,9 +218,8 @@
             "highRisk.preventiveMeasures.3.paragraphs.1": "Please use the Self Assessment Test in order to obtain a test code: https://sat.info-coronavirus.be/nl/formulier/sat",
             "highRisk.preventiveMeasures.4.text": "Do you have no symptoms?",
             "highRisk.preventiveMeasures.4.paragraphs.1": "Contact the contact tracing center on 02 214 19 19.",
-            "highRisk.preventiveMeasures.4.paragraphs.2": "Get tested twice (immediately and on day 7).",
-            "highRisk.preventiveMeasures.4.paragraphs.3": "If you are fully vaccinated, please respect a quarantine, which can be ended on the basis of a negative test taken on day 1.",
-            "highRisk.preventiveMeasures.4.paragraphs.4": "If you are not fully vaccinated, please respect a quarantine, which can be ended on the basis of a negative test taken on day 7.",
+            "highRisk.preventiveMeasures.4.paragraphs.2": "If you are fully vaccinated, get tested around day 5. Please respect a quarantine, which can be ended on the basis of a negative test taken on day 5.",
+            "highRisk.preventiveMeasures.4.paragraphs.3": "If you are not fully vaccinated, get tested twice (immediately and on day 7). Please respect a quarantine, which can be ended on the basis of a negative test taken on day 7.",
             "positiveTestResultCard.explanation.1.text": "The call center will contact you by telephone.",
             "positiveTestResultCard.explanation.2.text": "You're contagious. Immediately go into isolation for at least 10 days.",
             "positiveTestResultCard.explanation.3.text": "Share your anonymous ID’s so that others can be warned.",
@@ -273,9 +271,8 @@
             "highRisk.preventiveMeasures.3.paragraphs.1": "Gebruik de zelfevaluatie tool om een testcode te bekomen: https://sat.info-coronavirus.be/nl/formulier/sat",
             "highRisk.preventiveMeasures.4.text": "Heb je geen symptomen?",
             "highRisk.preventiveMeasures.4.paragraphs.1": "Contacteer het contact tracing center op 02 214 19 19.",
-            "highRisk.preventiveMeasures.4.paragraphs.2": "Laat je tweemaal testen (onmiddellijk en op dag 7).",
-            "highRisk.preventiveMeasures.4.paragraphs.3": "Indien volledig gevaccineerd, respecteer een quarantaine die beëindigd mag worden o.b.v. een negatieve test afgenomen op dag 1.",
-            "highRisk.preventiveMeasures.4.paragraphs.4": "Indien niet volledig gevaccineerd, respecteer een quarantaine die beëindigd mag worden o.b.v. een negatieve test afgenomen op dag 7.",
+            "highRisk.preventiveMeasures.4.paragraphs.2": "Indien volledig gevaccineerd, laat je testen rond dag 5. Respecteer een quarantaine die beëindigd mag worden o.b.v. een negatieve test rond dag 5.",
+            "highRisk.preventiveMeasures.4.paragraphs.3": "Indien niet volledig gevaccineerd, laat je tweemaal testen (onmiddellijk en op dag 7). Respecteer een quarantaine die beëindigd mag worden o.b.v. een negatieve test afgenomen op dag 7.",
             "positiveTestResultCard.explanation.1.text": "Het call center neemt telefonisch contact met je op. ",
             "positiveTestResultCard.explanation.2.text": "Je bent besmettelijk. Ga onmiddellijk in isolatie gedurende minstens 10 dagen.",
             "positiveTestResultCard.explanation.3.text": "Deel je anonieme ID’s zodat anderen gewaarschuwd kunnen worden. ",
@@ -327,9 +324,8 @@
             "highRisk.preventiveMeasures.3.paragraphs.1": "Utilisez l’outil d’autoévaluation afin de vous procurer un code de test : https://sat.info-coronavirus.be/fr/formulaire/sat",
             "highRisk.preventiveMeasures.4.text": "Vous n'avez pas de symptômes ?",
             "highRisk.preventiveMeasures.4.paragraphs.1": "Appelez le centre de contact au 02 214 19 19.",
-            "highRisk.preventiveMeasures.4.paragraphs.2": "Faites-vous tester deux fois (immédiatement et au jour 7).",
-            "highRisk.preventiveMeasures.4.paragraphs.3": "Si vous êtes complètement vacciné, respectez une quarantaine qui peut être interrompue après un test PCR négatif à partir du jour 1.",
-            "highRisk.preventiveMeasures.4.paragraphs.4": "Si vous n’êtes pas complètement vacciné, respectez une quarantaine qui peut être interrompue après un test PCR négatif à partir du jour 7.",
+            "highRisk.preventiveMeasures.4.paragraphs.2": "Si vous êtes complètement vacciné, faites-vous tester aux alentours du jour 5. Respectez unequarantaine qui peut être interrompue après un test PCR négatif à partir du jour 5.",
+            "highRisk.preventiveMeasures.4.paragraphs.3": "Si vous n’êtes pas complètement vacciné, faites-vous tester deux fois (immédiatement et au jour 7). Respectez une quarantaine qui peut être interrompue après un test PCR négatif à partir du jour 7.",
             "positiveTestResultCard.explanation.1.text": "Le centre d'appel vous contactera par téléphone.",
             "positiveTestResultCard.explanation.2.text": "Vous êtes contagieux. Respectez strictement un isolement d'au moins 10 jours.",
             "positiveTestResultCard.explanation.3.text": "Partagez vos clés anonymes afin que les autres puissent être avertis.",
@@ -381,9 +377,8 @@
             "highRisk.preventiveMeasures.3.paragraphs.1": "Verwenden Sie das Selbsteinschätzungs-Tool, um einen Testcode zu erhalten: https://sat.info-coronavirus.be/de/form/sat",
             "highRisk.preventiveMeasures.4.text": "Haben Sie keine Symptome?",
             "highRisk.preventiveMeasures.4.paragraphs.1": "Rufen Sie das Kontaktzentrum unter 02 214 19 19 an.",
-            "highRisk.preventiveMeasures.4.paragraphs.2": "Lassen Sie sich zweimal testen (sofort und an Tag 7).",
-            "highRisk.preventiveMeasures.4.paragraphs.3": "Wenn Sie vollständig geimpft sind, respektieren Sie bitte eine Quarantäne, die aufgrund eines negativen Tests am Tag 1 beendet werden kann.",
-            "highRisk.preventiveMeasures.4.paragraphs.4": "Wenn Sie nicht vollständig geimpft sind, respektieren Sie bitte eine Quarantäne, die aufgrund eines negativen Tests am Tag 7 beendet werden kann.",
+            "highRisk.preventiveMeasures.4.paragraphs.2": "Wenn Sie vollständig geimpft sind, lassen Sie sich um Tag 5 testen. Respektieren Sie bitte eine Quarantäne, die aufgrund eines negativen Tests am Tag 5 beendet werden kann.",
+            "highRisk.preventiveMeasures.4.paragraphs.3": "Wenn Sie nicht vollständig geimpft sind, lassen Sie sich zweimal testen (sofort und an Tag 7). Respektieren Sie bitte eine Quarantäne, die aufgrund eines negativen Tests am Tag 7 beendet werden kann.",
             "positiveTestResultCard.explanation.1.text": "Das Callcenter wird Sie telefonisch kontaktieren.",
             "positiveTestResultCard.explanation.2.text": "Du bist ansteckend. Gehen Sie sofort für mindestens 10 Tage in Isolation.",
             "positiveTestResultCard.explanation.3.text": "Teilen Sie Ihre anonymen IDs mit, damit andere benachrichtigt werden können.",
