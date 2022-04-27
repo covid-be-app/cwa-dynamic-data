@@ -143,14 +143,6 @@
                     "text": "participatingCountries.list.2.text"
                 },
                 {
-                    "icon": "flag.cy",
-                    "text": "participatingCountries.list.3.text"
-                },
-                {
-                    "icon": "flag.dk",
-                    "text": "participatingCountries.list.4.text"
-                },
-                {
                     "icon": "flag.de",
                     "text": "participatingCountries.list.5.text"
                 },
@@ -167,20 +159,8 @@
                     "text": "participatingCountries.list.8.text"
                 },
                 {
-                    "icon": "flag.nl",
-                    "text": "participatingCountries.list.9.text"
-                },
-                {
-                    "icon": "flag.pl",
-                    "text": "participatingCountries.list.10.text"
-                },
-                {
                     "icon": "flag.es",
                     "text": "participatingCountries.list.11.text"
-                },
-                {
-                    "icon": "flag.at",
-                    "text": "participatingCountries.list.12.text"
                 },
                 {
                     "icon": "flag.fi",
